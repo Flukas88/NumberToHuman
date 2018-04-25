@@ -1,6 +1,3 @@
-task :default => :rubocop
-
-
-task :rubocop do
+task :default do
   sh 'rubocop'
 end
