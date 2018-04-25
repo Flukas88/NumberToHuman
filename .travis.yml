@@ -5,4 +5,4 @@ rvm:
  
 before_install:  chmod 755 numberToEnglish.rb 
 
-install: bundle install && rubocop
+install: bundle install
