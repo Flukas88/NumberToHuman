@@ -1,4 +1,5 @@
-task test: :rubocop
+task :default => :rubocop
+
 
 task :rubocop do
   sh 'rubocop'
