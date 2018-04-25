@@ -1,5 +1,5 @@
-#!/usr/bin/env ruby -w
-# -*- encoding: utf-8 -*-
+#!/usr/bin/ruby -w
+# encoding: utf-8
 
 require 'logger'
 
