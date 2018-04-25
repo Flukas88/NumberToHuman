@@ -3,5 +3,6 @@ rvm:
   - 2.5
  
  
-before_install:  gem install rubocop && chmod 755 numberToEnglish.rb
-install: rubocop
+before_install:  gem install rubocop 
+
+install: chmod 755 numberToEnglish.rb && rubocop
