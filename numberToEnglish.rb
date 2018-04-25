@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby -w
-## -*- encoding: utf-8 -*-
+# -*- encoding: utf-8 -*-
+
 require 'logger'
 
 @logger = Logger.new(STDOUT)
